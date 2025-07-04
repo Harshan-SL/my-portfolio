@@ -1,0 +1,201 @@
+
+/* Paste your custom CSS here */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      cursor: none; /* Hide default cursor */
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    .left-content {
+      flex: 1;
+      padding-right: 2rem;
+    }
+
+    .right-content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .profile-image {
+      max-width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 1rem;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+    }
+
+    /* Header */
+    .header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    .pronunciation {
+      font-style: italic;
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-top: 0.3rem;
+    }
+
+    /* Navigation */
+    .navigation {
+      display: flex;
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+
+    .nav-link {
+      color: #ccc;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+      transition: all 0.3s ease;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: #fff;
+      border-bottom: 2px solid #fff;
+    }
+
+    /* Bio Text */
+    .bio {
+      margin-top: 1rem;
+      font-size: 1.05rem;
+      color: #ddd;
+    }
+
+    .bio p {
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      color: #00ffe1;
+      font-weight: 600;
+    }
+
+    .link {
+      color: #61dafb;
+      text-decoration: none;
+    }
+
+    .link:hover {
+      text-decoration: underline;
+    }
+
+    /* Status Button */
+    .status-button {
+      margin-top: 2rem;
+      padding: 0.6rem 1.2rem;
+      background: #111;
+      border: 1px solid #333;
+      color: #aaa;
+      font-size: 0.9rem;
+      border-radius: 6px;
+      cursor: none;
+      font-family: monospace;
+      transition: all 0.3s ease;
+    }
+
+    .status-button:hover {
+      border-color: #666;
+      color: #fff;
+    }
+
+    /* Custom Cursor Styles */
+    .custom-cursor {
+      position: fixed;
+      width: 20px;
+      height: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9999;
+      transition: transform 0.1s ease;
+      mix-blend-mode: difference;
+    }
+
+    .custom-cursor::before {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 0.3s ease;
+    }
+
+    .custom-cursor.hover {
+      transform: scale(1.5);
+    }
+
+    .custom-cursor.hover::before {
+      width: 60px;
+      height: 60px;
+      border-color: rgba(0, 255, 225, 0.6);
+    }
+
+    .custom-cursor.click {
+      transform: scale(0.8);
+    }
+
+    .custom-cursor.click::before {
+      width: 30px;
+      height: 30px;
+      border-color: rgba(97, 218, 251, 0.8);
+    }
+
+    /* Cursor trail */
+    .cursor-trail {
+      position: fixed;
+      width: 4px;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9998;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Hide cursor on mobile */
+    @media (max-width: 768px) {
+      body {
+        cursor: auto;
+      }
+      .custom-cursor,
+      .cursor-trail {
+        display: none;
+      }
+    }
