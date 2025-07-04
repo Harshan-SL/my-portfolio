@@ -2,6 +2,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   useEffect(() => {
@@ -94,7 +95,7 @@ export default function Home() {
 
           <div className="bio">
             <p>
-              I'm a <span className="highlight">third-year undergraduate</span> student at VIT from India with a passion for electronics, hardware systems and embedded development.
+              I&#39;m a <span className="highlight">third-year undergraduate</span> student at VIT from India with a passion for electronics, hardware systems and embedded development.
             </p>
             <p>
               Over the last few years, I have built experience in <span className="highlight">Arduino, Embedded C, Digital Design, Circuit Simulation and Signal Processing</span>. I blend hardware with software for real-world use.
@@ -103,7 +104,7 @@ export default function Home() {
               I spend time in competitions, labs, or projects, exploring modern technologies and pushing creative engineering boundaries.
             </p>
             <p>
-              Let's connect —
+              Let&#39;s connect —
               <a href="https://github.com/Harshan-SL/" className="link">GitHub</a>,
               <a href="https://www.linkedin.com/in/harshansl/" className="link">LinkedIn</a>,
               <a href="mailto:harshan.bhkl@gmail.com" className="link">Email</a>
@@ -114,7 +115,7 @@ export default function Home() {
         </div>
 
         <div className="right-content">
-          <img src="/1.png" alt="Profile" className="profile-image" />
+          <Image src="/1.png" alt="Profile" className="profile-image" width={300} height={200} />
         </div>
       </div>
     </>
