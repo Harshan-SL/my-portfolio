@@ -2,91 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Harshan S L</title>
-    <link>//localhost:1313/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Harshan S L</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>harshansl.work@gmail.com (Harshan S L)</managingEditor>
     <webMaster>harshansl.work@gmail.com (Harshan S L)</webMaster>
     <copyright>&amp;copy; 2025 Harshan S L</copyright>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Attendance Management Using RFID</title>
-      <link>//localhost:1313/projects/rfid/</link>
+      <link>http://localhost:1313/projects/rfid/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>//localhost:1313/projects/rfid/</guid>
+      <guid>http://localhost:1313/projects/rfid/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bluetooth-Controlled Robot with RFID-Based Access System</title>
-      <link>//localhost:1313/projects/bluetooth/</link>
+      <link>http://localhost:1313/projects/bluetooth/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>//localhost:1313/projects/bluetooth/</guid>
+      <guid>http://localhost:1313/projects/bluetooth/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/bluetooth/featured.webp" />
+      
     </item>
     
     <item>
       <title>Braun Array Multiplier</title>
-      <link>//localhost:1313/projects/braun/</link>
+      <link>http://localhost:1313/projects/braun/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>//localhost:1313/projects/braun/</guid>
+      <guid>http://localhost:1313/projects/braun/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Miniaturized Microstrip Patch Antenna</title>
-      <link>//localhost:1313/projects/miniaturization/</link>
+      <link>http://localhost:1313/projects/miniaturization/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>//localhost:1313/projects/miniaturization/</guid>
+      <guid>http://localhost:1313/projects/miniaturization/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Reconfigurable Antenna with Band Stop FSS</title>
-      <link>//localhost:1313/projects/reconfig/</link>
+      <link>http://localhost:1313/projects/reconfig/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>//localhost:1313/projects/reconfig/</guid>
+      <guid>http://localhost:1313/projects/reconfig/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Smart Home IoT System</title>
-      <link>//localhost:1313/projects/smart/</link>
+      <link>http://localhost:1313/projects/smart/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>//localhost:1313/projects/smart/</guid>
+      <guid>http://localhost:1313/projects/smart/</guid>
       <description>ESP32-based smart home project with MQTT integration.</description>
       
     </item>
     
     <item>
       <title>Student Expenditure Analysis</title>
-      <link>//localhost:1313/projects/studentexp/</link>
+      <link>http://localhost:1313/projects/studentexp/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>//localhost:1313/projects/studentexp/</guid>
+      <guid>http://localhost:1313/projects/studentexp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Supernova Cosmology Analysis</title>
-      <link>//localhost:1313/projects/como-analysis/</link>
+      <link>http://localhost:1313/projects/como-analysis/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>//localhost:1313/projects/como-analysis/</guid>
+      <guid>http://localhost:1313/projects/como-analysis/</guid>
       <description></description>
       
     </item>

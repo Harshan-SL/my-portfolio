@@ -8,21 +8,25 @@ weight: 2
 
 ## 💼 Experience
 
-### [Astronomy and Astrophysics Intern](astron)
+### Astronomy and Astrophysics Intern
 *India Space Academy – Jun–Jul 2025 (Remote)*  
 Hands-on data analysis and Hubble parameter estimation.
 
 ### Summer Intern  
 *NIT Tiruchirappalli – May–Jun 2025 (Tiruchirappalli)*  
-RF circuit and antenna design research.
+Worked on performance analysis, simulation, and design of antennas.
 
-### Operations Team Member  
+### Techinical Lead 
+*IEEE Solid State Society - Feb 2025 - Present(VIT Chennai)*
+
+
+### Team Member  
 *IEEE Photonics Society – Sep 2024 – Jun 2025 (VIT Chennai)*  
-Event planning and promotion.
+Designed poster, corrdinated events, handled marketing as a club member.
 
-### Content Developer  
-*Open Source Programming Club – Oct 2023 – Sep 2024 (VIT Chennai)*  
-Content development for events and technical documentation.
+### Event Volunteer
+*Fine Arts Club – Jul 2024 – May 2025 (VIT Chennai)*  
+Handled marketing for small events.
 
 ---
 
@@ -32,7 +36,4 @@ Content development for events and technical documentation.
 *VIT Chennai – 2022–2026*
 
 ### Higher Secondary (12th Grade)  
-*School Name – 2020–2022*
-
-### Secondary (10th Grade)  
-*School Name – 2018–2020*
+*SSV East Tambaram - 2021 - 2022*
