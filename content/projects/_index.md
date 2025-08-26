@@ -1,4 +1,10 @@
 ---
-description: Portfolio website of an Electronics & Communication Engineer—projects, skills, and research in electronics, embedded, and communication systems.
+title: "Projects"
+description: "A showcase of my recent projects"
+type: "projects"
+weight: 1
+showHero: true
+cardView: true
+groupByYear: false
 ---
-Projects
+Welcome to my projects page. Here are some of my recent works.
