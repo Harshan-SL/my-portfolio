@@ -117,7 +117,7 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Projects",
+    "articleSection": " 📌 Projects",
     "name": "Attendance Management Using RFID",
     "headline": "Attendance Management Using RFID",
     
@@ -137,7 +137,7 @@
     "keywords": ["RFID","Database","Python"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "11"
+    "wordCount": "396"
   }]
   </script>
 
@@ -506,40 +506,37 @@
     
   
 
-
-
-    <div id="hero" class="h-[150px] md:h-[200px]"></div>
   
-  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom">
-    
+
+<div class="single_hero_background nozoom fixed inset-x-0 top-0 h-[800px]">
     
       
+        <img
+          id="background-image-main"
+          src="/2_hu_a6a6e2b62e59110f.webp"
+          alt="Background Image"
+          class="absolute inset-0 h-full w-full object-cover">
+      
     
-    <img
-      id="background-image"
-      src="/2_hu_a6a6e2b62e59110f.webp"
-      alt="Background Image"
-      class="absolute inset-0 w-full h-full object-cover">
     <div
-      class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal"></div>
+      class="from-neutral absolute inset-0 bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
     <div
-      class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal"></div>
+      class="from-neutral to-neutral absolute inset-0 bg-gradient-to-t opacity-30 mix-blend-normal dark:from-neutral-800 dark:to-neutral-800 dark:opacity-60"></div>
   </div>
+  <div
+    id="background-blur"
+    class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/background-blur.min.0ad33cb9c066f652728b2cc09c9ceaf32645544f48e8b6b38f120d86f433ed997da275a49e6151fe0176430c45376812708d84727f3f969101fb44a4345b3f34.js"
+    integrity="sha512-CtM8ucBm9lJyiyzAnJzq8yZFVE9I6LazjxINhvQz7Zl9onWknmFR/gF2QwxFN2gScI2Ecn8/lpEB&#43;0SkNFs/NA=="
+    data-target-id="background-blur"
+    data-image-id="background-image-main"
+    data-image-url="/2.webp"></script>
 
-  
-    <div
-      id="background-blur"
-      class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
-    
-    
-    <script
-      type="text/javascript"
-      src="/js/background-blur.min.0ad33cb9c066f652728b2cc09c9ceaf32645544f48e8b6b38f120d86f433ed997da275a49e6151fe0176430c45376812708d84727f3f969101fb44a4345b3f34.js"
-      integrity="sha512-CtM8ucBm9lJyiyzAnJzq8yZFVE9I6LazjxINhvQz7Zl9onWknmFR/gF2QwxFN2gScI2Ecn8/lpEB&#43;0SkNFs/NA=="
-      data-target-id="background-blur"
-      data-image-id="background-image"
-      data-image-url="/2.webp"></script>
-  
+
       
     
 
@@ -643,7 +640,198 @@
         
 
         <div class="article-content max-w-prose mb-20">
-          <p>Automated attendance tracking system with RFID card integration and database management.</p>
+          
+<h2 class="relative group">Introduction 
+    <div id="introduction" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#introduction" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Attendance tracking has become an essential aspect of schools, colleges, and workplaces.<br>
+Traditional methods, such as passing attendance sheets, are time-consuming, prone to errors, and vulnerable to fake entries or data loss.</p>
+<p>To overcome these limitations, modern solutions leverage technology like <strong>RFID, biometrics, NFC, Bluetooth, and barcode systems</strong>. Among these, <strong>RFID-based attendance systems</strong> are reliable, secure, and efficient.</p>
+<p>This project demonstrates an <strong>RFID Attendance Management System</strong> using Arduino Uno, designed to automate attendance logging, improve efficiency, and reduce manual errors.</p>
+<hr>
+
+<h2 class="relative group">System Overview 
+    <div id="system-overview" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#system-overview" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>When a registered RFID card is scanned:</p>
+<ul>
+<li>✅ <strong>Green LED + Short buzzer tone</strong> → Attendance recorded successfully.</li>
+<li>❌ <strong>Red LED + Long buzzer tone</strong> → Invalid/unregistered card detected.</li>
+</ul>
+<p>The system also logs attendance data with <strong>date, time, and user details</strong> in real-time, which can be exported to <strong>Excel or a database</strong> for reporting.</p>
+<hr>
+
+<h2 class="relative group">Hardware Setup 
+    <div id="hardware-setup" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#hardware-setup" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li><strong>Arduino Uno</strong> – Microcontroller for system control.</li>
+<li><strong>RFID RC522 Module</strong> – Reads RFID cards.</li>
+<li><strong>LEDs (Green &amp; Red)</strong> – Visual feedback.</li>
+<li><strong>Buzzer</strong> – Audio feedback.</li>
+</ul>
+
+<h3 class="relative group">Wiring Connections 
+    <div id="wiring-connections" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#wiring-connections" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>SDA → Pin 10</li>
+<li>SCK → Pin 13</li>
+<li>MOSI → Pin 11</li>
+<li>MISO → Pin 12</li>
+<li>RST → Pin 9</li>
+<li>Green LED → Pin 5</li>
+<li>Red LED → Pin 6</li>
+<li>Buzzer → Pin 7</li>
+</ul>
+<hr>
+
+<h2 class="relative group">Software Implementation 
+    <div id="software-implementation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#software-implementation" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>Arduino communicates with the RFID module using <strong>SPI protocol</strong>.</li>
+<li>The system continuously checks for new RFID cards.</li>
+<li>Each card’s <strong>UID (Unique Identifier)</strong> is compared with stored valid IDs.</li>
+<li>Attendance is logged in the format:</li>
+</ul>
+
+<h2 class="relative group">Attendance Logging 
+    <div id="attendance-logging" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#attendance-logging" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>Valid card → Record stored with timestamp.</li>
+<li>Invalid card → Rejected with feedback.</li>
+<li>Data can be displayed on the <strong>Serial Monitor</strong> or exported to <strong>Excel/database</strong> for reporting.</li>
+<li>DATA, Date, Time, Name, UserNumber</li>
+</ul>
+<hr>
+
+<h2 class="relative group">RFID RC522 Pin Configuration 
+    <div id="rfid-rc522-pin-configuration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#rfid-rc522-pin-configuration" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Pin No.</th>
+          <th>Name</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>VCC</td>
+          <td>Power supply (3.3V)</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>RST</td>
+          <td>Reset pin</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>GND</td>
+          <td>Ground</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>IRQ</td>
+          <td>Interrupt pin (wake-up signal)</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>MISO/SCL/TX</td>
+          <td>MISO for SPI, SCL for I²C, TX for UART</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>MOSI</td>
+          <td>Master Out Slave In (SPI)</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>SCK</td>
+          <td>Serial Clock (SPI)</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>SS/SDA/RX</td>
+          <td>SS for SPI, SDA for I²C, RX for UART</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+
+<h2 class="relative group">Results 
+    <div id="results" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#results" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>✅ Automated attendance logging achieved.</li>
+<li>✅ Real-time validation with LED + buzzer feedback.</li>
+<li>✅ Data export possible for reporting and analysis.</li>
+</ul>
+<hr>
+
+<h2 class="relative group">Conclusion 
+    <div id="conclusion" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#conclusion" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>This <strong>RFID-based Attendance Management System</strong> provides a secure, efficient, and user-friendly solution for managing attendance in <strong>schools, colleges, offices, and events</strong>.<br>
+It simplifies the traditional process while reducing errors and improving overall operational efficiency.</p>
 
           
           
@@ -683,12 +871,15 @@
     
     
     
+      
+      
+    
     <div class="pt-8">
       <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/projects/bluetooth/">
+            <a class="flex group mr-3" href="/about/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -699,7 +890,7 @@
               >
               <span class="flex flex-col">
                 <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Bluetooth-Controlled Robot with RFID-Based Access System</span
+                  >About Me</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -709,6 +900,25 @@
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/projects/bluetooth/">
+              <span class="flex flex-col">
+                <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Bluetooth-Controlled Robot with RFID-Based Access System</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>
