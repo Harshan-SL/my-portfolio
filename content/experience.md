@@ -1,11 +1,10 @@
 ---
-
+title: "💼 Experience"
 description: "My professional experience and academic background"
 showHero: true
 herostyle: "thumbAndBackground"
 weight: 2
 ---
-# 💼 Experience
 
 | Role                              | Organization             | Period              | Location        | Notes                                                              |
 | --------------------------------- | ------------------------ | ------------------- | --------------- | ------------------------------------------------------------------ |
