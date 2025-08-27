@@ -9,7 +9,57 @@
     <managingEditor>harshansl.work@gmail.com (Harshan S L)</managingEditor>
     <webMaster>harshansl.work@gmail.com (Harshan S L)</webMaster>
     <copyright>&amp;copy; 2025 Harshan S L</copyright>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:1313/categories/data-science/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <author>harshansl.work@gmail.com (Harshan S L)</author>
+      <guid>http://localhost:1313/categories/data-science/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>IoT</title>
+      <link>http://localhost:1313/categories/iot/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <author>harshansl.work@gmail.com (Harshan S L)</author>
+      <guid>http://localhost:1313/categories/iot/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>RF &amp; Antenna</title>
+      <link>http://localhost:1313/categories/rf--antenna/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <author>harshansl.work@gmail.com (Harshan S L)</author>
+      <guid>http://localhost:1313/categories/rf--antenna/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>http://localhost:1313/categories/robotics/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <author>harshansl.work@gmail.com (Harshan S L)</author>
+      <guid>http://localhost:1313/categories/robotics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>VLSI</title>
+      <link>http://localhost:1313/categories/vlsi/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <author>harshansl.work@gmail.com (Harshan S L)</author>
+      <guid>http://localhost:1313/categories/vlsi/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
