@@ -11,7 +11,7 @@ title = "Harshan S L"
   dateFormat = "2006 01 _2"
   # logo = "logo.png"
   secondaryLogo = "logo.png"
-  # description = "My awesome website"
+  description = "My portfolio"
   copyright = "&copy; 2025 Harshan S L"
 
 [params.author]
