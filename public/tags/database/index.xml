@@ -9,15 +9,15 @@
     <managingEditor>harshansl.work@gmail.com (Harshan S L)</managingEditor>
     <webMaster>harshansl.work@gmail.com (Harshan S L)</webMaster>
     <copyright>&amp;copy; 2025 Harshan S L</copyright>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/database/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Attendance Management Using RFID</title>
-      <link>http://localhost:1313/projects/rfid/</link>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/projects/attendance-management/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>http://localhost:1313/projects/rfid/</guid>
-      <description></description>
+      <guid>http://localhost:1313/projects/attendance-management/</guid>
+      <description>Automated attendance tracking system with RFID card integration and database management.</description>
       
     </item>
     

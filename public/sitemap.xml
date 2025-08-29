@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/projects/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/experience/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -19,55 +14,49 @@
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/rfid/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/bluetooth/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects/attendance-management/</loc>
+    <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/braun/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects/bluetooth-rfid-robot/</loc>
+    <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/miniaturization/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects/braun-array-multiplier/</loc>
+    <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/reconfig/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects/miniaturization-antenna/</loc>
+    <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/smart/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects/student-expenditure-analysis/</loc>
+    <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/studentexp/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/projects/como-analysis/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects/supernova-analysis/</loc>
+    <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
