@@ -12,7 +12,7 @@
     <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>💼 Experience</title>
+      <title>Experience</title>
       <link>http://localhost:1313/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
@@ -32,22 +32,12 @@
     </item>
     
     <item>
-      <title>Attendance Management Using RFID</title>
-      <link>http://localhost:1313/projects/attendance-management/</link>
+      <title>Miniaturized Microstrip Patch Antenna</title>
+      <link>http://localhost:1313/projects/miniaturization-antenna/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>http://localhost:1313/projects/attendance-management/</guid>
-      <description>Automated attendance tracking system with RFID card integration and database management.</description>
-      
-    </item>
-    
-    <item>
-      <title>Bluetooth-Controlled Robot with RFID-Based Access System</title>
-      <link>http://localhost:1313/projects/bluetooth-rfid-robot/</link>
-      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-      <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>http://localhost:1313/projects/bluetooth-rfid-robot/</guid>
-      <description>Bluetooth-controlled robot integrated with an RFID-based access system.</description>
+      <guid>http://localhost:1313/projects/miniaturization-antenna/</guid>
+      <description>Advanced antenna design using 3D printed substrate for enhanced performance and reduced size.</description>
       
     </item>
     
@@ -62,12 +52,22 @@
     </item>
     
     <item>
-      <title>Miniaturized Microstrip Patch Antenna</title>
-      <link>http://localhost:1313/projects/miniaturization-antenna/</link>
+      <title>Bluetooth-Controlled Robot with RFID-Based Access System</title>
+      <link>http://localhost:1313/projects/bluetooth-rfid-robot/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>http://localhost:1313/projects/miniaturization-antenna/</guid>
-      <description>Advanced antenna design using 3D printed substrate for enhanced performance and reduced size.</description>
+      <guid>http://localhost:1313/projects/bluetooth-rfid-robot/</guid>
+      <description>Bluetooth-controlled robot integrated with an RFID-based access system.</description>
+      
+    </item>
+    
+    <item>
+      <title>Supernova Cosmology Analysis</title>
+      <link>http://localhost:1313/projects/supernova-analysis/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+      <author>harshansl.work@gmail.com (Harshan S L)</author>
+      <guid>http://localhost:1313/projects/supernova-analysis/</guid>
+      <description>Advanced cosmological data analysis using Pantheon+SHOES dataset for universe expansion study.</description>
       
     </item>
     
@@ -82,12 +82,12 @@
     </item>
     
     <item>
-      <title>Supernova Cosmology Analysis</title>
-      <link>http://localhost:1313/projects/supernova-analysis/</link>
+      <title>Attendance Management Using RFID</title>
+      <link>http://localhost:1313/projects/attendance-management/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>http://localhost:1313/projects/supernova-analysis/</guid>
-      <description>Advanced cosmological data analysis using Pantheon+SHOES dataset for universe expansion study.</description>
+      <guid>http://localhost:1313/projects/attendance-management/</guid>
+      <description>Automated attendance tracking system with RFID card integration and database management.</description>
       
     </item>
     
