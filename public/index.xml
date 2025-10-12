@@ -91,5 +91,15 @@
       
     </item>
     
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>harshansl.work@gmail.com (Harshan S L)</author>
+      <guid>http://localhost:1313/skills/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
