@@ -9,15 +9,15 @@
     <managingEditor>harshansl.work@gmail.com (Harshan S L)</managingEditor>
     <webMaster>harshansl.work@gmail.com (Harshan S L)</webMaster>
     <copyright>&amp;copy; 2025 Harshan S L</copyright>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Smart Home IoT System</title>
-      <link>http://localhost:1313/projects/smart/</link>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <title>Smart Home system</title>
+      <link>http://localhost:1313/projects/smart-home-system/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
       <author>harshansl.work@gmail.com (Harshan S L)</author>
-      <guid>http://localhost:1313/projects/smart/</guid>
-      <description>ESP32-based smart home project with MQTT integration.</description>
+      <guid>http://localhost:1313/projects/smart-home-system/</guid>
+      <description>Temperature Controlled Fan with home automation</description>
       
     </item>
     

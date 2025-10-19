@@ -30,10 +30,23 @@
   weight = 15
 
 [[main]]
-  name = "Experience"
-  pageRef = "experience"
-  weight = 10
+  name = "About me"
+  parent = "About"
+  pageRef = "about"
+  weight = 20
 
+[[main]]
+  name = "Experience"
+  parent = "About"
+  pageRef = "experience"
+  weight = 20
+
+[[main]]
+  name = "My stack"
+  parent = "About"
+  pageRef = "skills"
+  weight = 20
+  
 #[[main]]
 #  name = "Parent"
 #  weight = 20

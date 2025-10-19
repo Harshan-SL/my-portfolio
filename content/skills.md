@@ -1,9 +1,4 @@
 ---
-title: "About Me"
+title: "Skills"
 ---
-
-Here's some content about me...
-
-{{< tech-carousel >}}
-
-More content here...
+{{< skills >}}

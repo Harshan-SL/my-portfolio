@@ -199,7 +199,10 @@
     
     
       <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px] bg-neutral dark:bg-neutral-800 z-100">
+<div class="fixed inset-x-0 pl-[24px] pr-[24px] z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     
 
@@ -247,29 +250,74 @@
 
       
         
-  <a
-  href="/about/"
-  
-  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-  
-  <p class="text-base font-medium" title="About Me">
-    About
-  </p>
-</a>
-
-
-
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    
+    <a
       
+        href="/about/"
         
-  <a
-  href="/experience/"
-  
-  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-  
-  <p class="text-base font-medium" title="Experience">
-    Experience
-  </p>
-</a>
+      
+      class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400"
+      title="About Me">
+      <p>
+        About
+      </p>
+    </a>
+    <span>
+      <span class="relative block icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+</span>
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+          <a
+            href="/about/"
+            
+            class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+            
+            <p class="text-sm font-sm" title="About Me">
+              About me
+            </p>
+          </a>
+        
+          <a
+            href="/experience/"
+            
+            class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+            
+            <p class="text-sm font-sm" title="Experience">
+              Experience
+            </p>
+          </a>
+        
+          <a
+            href="/skills/"
+            
+            class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+            
+            <p class="text-sm font-sm" title="Skills">
+              My stack
+            </p>
+          </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -294,7 +342,7 @@
   
   class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
   
-  <p class="text-base font-medium" title="">
+  <p class="text-base font-medium" title="Harshan S L">
     Resume
   </p>
 </a>
@@ -419,30 +467,66 @@
   <li class="mt-1">
   <a
     href="/about/"
-    
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-bg font-bg" title="About Me">
       About
     </p>
+    <span>
+      <span class="relative block icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+</span>
+    </span>
   </a>
 </li>
 
-
-
-            
-              
   <li class="mt-1">
-  <a
-    href="/experience/"
-    
-    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-bg font-bg" title="Experience">
-      Experience
-    </p>
-  </a>
-</li>
+    <a
+      href="/about/"
+      
+      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+      
+      <p class="text-sm font-small" title="About Me">
+        About me
+      </p>
+    </a>
+  </li>
+
+  <li class="mt-1">
+    <a
+      href="/experience/"
+      
+      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+      
+      <p class="text-sm font-small" title="Experience">
+        Experience
+      </p>
+    </a>
+  </li>
+
+  <li class="mt-1">
+    <a
+      href="/skills/"
+      
+      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+      
+      <p class="text-sm font-small" title="Skills">
+        My stack
+      </p>
+    </a>
+  </li>
+
+<li class="mb-2"></li>
 
 
 
@@ -470,7 +554,7 @@
     
     class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="">
+    <p class="text-bg font-bg" title="Harshan S L">
       Resume
     </p>
   </a>
@@ -495,6 +579,13 @@
 
   </div>
 </div>
+
+
+<script
+  type="text/javascript"
+  src="/js/background-blur.min.0ad33cb9c066f652728b2cc09c9ceaf32645544f48e8b6b38f120d86f433ed997da275a49e6151fe0176430c45376812708d84727f3f969101fb44a4345b3f34.js"
+  integrity="sha512-CtM8ucBm9lJyiyzAnJzq8yZFVE9I6LazjxINhvQz7Zl9onWknmFR/gF2QwxFN2gScI2Ecn8/lpEB&#43;0SkNFs/NA=="
+  data-target-id="menu-blur"></script>
 
     
     <div class="relative flex flex-col grow">
@@ -1377,6 +1468,127 @@
     </div>
     
       <div class="prose dark:prose-invert py-1">Automated attendance tracking system with RFID card integration and database management.</div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</div>
+
+              
+                
+<div
+  class="group-hover-card group relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  <a
+    
+  href="/projects/smart-home-system/"
+    class="absolute inset-0"
+    aria-label="Smart Home system"></a>
+      
+    
+  <div class="px-6 py-4">
+    
+      <div
+        class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
+        Smart Home system
+      </div>
+    
+    <div class="group-hover-cancel text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] mr-2" href="/tags/iot/"
+                ><span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    IoT
+  </span>
+</span>
+</a
+              >
+            
+              <a class="relative mt-[0.5rem] mr-2" href="/tags/embedded/"
+                ><span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Embedded
+  </span>
+</span>
+</a
+              >
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+      <div class="prose dark:prose-invert py-1">Temperature Controlled Fan with home automation</div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>

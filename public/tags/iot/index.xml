@@ -21,5 +21,15 @@
       
     </item>
     
+    <item>
+      <title>Smart Home system</title>
+      <link>http://localhost:1313/projects/smart-home-system/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+      <author>harshansl.work@gmail.com (Harshan S L)</author>
+      <guid>http://localhost:1313/projects/smart-home-system/</guid>
+      <description>Temperature Controlled Fan with home automation</description>
+      
+    </item>
+    
   </channel>
 </rss>

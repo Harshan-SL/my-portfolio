@@ -1,0 +1,67 @@
+<div class="tech-stack-grid">
+
+  <div class="tech-card">C/C++</div>
+  <div class="tech-card">Java</div>
+  <div class="tech-card">Python</div>
+  <div class="tech-card">R</div>
+
+  <div class="tech-card">CST Studio Suite</div>
+  <div class="tech-card">ANSYS HFSS</div>
+  <div class="tech-card">Cadence Virtuoso</div>
+  <div class="tech-card">MATLAB</div>
+  <div class="tech-card">LT Spice</div>
+  <div class="tech-card">ModelSim</div>
+
+  <div class="tech-card">VLSI Design</div>
+  <div class="tech-card">Verilog HDL</div>
+
+  <div class="tech-card">8051 Microcontroller</div>
+  <div class="tech-card">Keil IDE</div>
+
+  <div class="tech-card">IoT</div>
+  <div class="tech-card">5G</div>
+  <div class="tech-card">Wireless Communication</div>
+  <div class="tech-card">Signal Processing</div>
+  <div class="tech-card">RF Circuit Design</div>
+  <div class="tech-card">Git</div>
+
+</div>
+
+<style>
+/* Grid */
+.tech-stack-grid {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1rem 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 576px) { .tech-stack-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 768px) { .tech-stack-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 992px) { .tech-stack-grid { grid-template-columns: repeat(5, 1fr); } }
+@media (min-width: 1200px) { .tech-stack-grid { grid-template-columns: repeat(6, 1fr); } }
+
+/* Card style */
+.tech-card {
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+
+  /* Light mode defaults */
+  background-color: #f0f0f0;
+  color: #111;
+}
+
+.tech-card:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+/* Dark mode */
+html.dark .tech-card {
+  background-color: #1a1a1a;
+  color: #eee;
+}
+</style>
