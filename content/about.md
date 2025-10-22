@@ -6,60 +6,50 @@ heroStyle: "thumbAndBackground"
 weight: 1
 ---
 
+---
 
-🤚🏻 Hi again! I'm **Harshan S L**, an Electronics and Communication Engineering student and an **Embedded Systems & IoT Developer** from India 🇮🇳.
+🤚🏻 Hi, I’m **Harshan S L** — an **Electronics and Communication Engineering** student.
 
-I’m currently in my **third year at VIT Chennai**, and I’m deeply passionate about building things that connect the physical and digital worlds — where **hardware meets intelligence**.
-
-Over the past few years, I’ve explored everything from **microcontrollers and communication systems** to **edge AI and IoT prototypes**. I’ve worked on ESP32-based devices, signal analysis in MATLAB, and automation scripts in Python — constantly experimenting to see how everyday electronics can think smarter.
+I’m in my **third year at VIT Chennai**, where I love exploring how hardware and software come together to make smart systems. From microcontrollers and sensors to IoT devices and edge AI, I enjoy building things that connect the physical and digital worlds.
 
 ---
 
-### 🚀 How It All Started
+### 🚀 How It All Began
 
-My journey with electronics began back in school — the moment I powered up my first Arduino board and saw an LED blink, I was hooked. That single blink felt like *magic I could control.*
+It all started in school when I powered up my first Arduino and made an LED blink. That tiny blink felt like *magic I could control* — and I’ve been hooked ever since.
 
-Soon after:
-- I started exploring sensors, circuits, and the logic behind how devices communicate.  
-- Built small IoT projects using ESP8266 and ESP32 boards.  
-- Got fascinated by **signal processing** — the invisible language that keeps our world connected.  
-- Started combining my love for **hardware** with **software automation** using Python.
-
-What began as curiosity slowly turned into a vision:  
-> To bridge embedded hardware with intelligent, efficient software — one project at a time.
+I started experimenting with sensors, circuits, and communication systems, then moved on to ESP32 projects, signal processing in MATLAB, and automation with Python. Over time, I realized my passion lies in **making hardware think smarter**.
 
 ---
 
-### ⚙️ My Technical Journey So Far
+### ⚙️ My Journey So Far
 
-I’ve been part of several communities and projects that helped shape my skills:
-- **Technical Lead @ IEEE Solid-State Circuits Society (VIT Chennai):** leading embedded and solid-state projects.  
-- **Intern @ NIT Trichy:** simulated antennas and wireless systems using HFSS and MATLAB.  
-- **Intern @ India Space Academy:** analyzed cosmological data to estimate the Hubble parameter using Python.  
-- **Team Member @ IEEE Photonics Society:** worked on optical communication outreach and design.  
+I’ve had the chance to learn and grow through several experiences:
 
-These experiences helped me connect theory with real-world systems — from **RF simulations to IoT prototypes**.
+* **Technical Lead @ IEEE SSCS (VIT Chennai)** – leading embedded and solid-state circuit projects.
+* **Intern @ NIT Trichy** – simulated antennas and wireless systems in HFSS and MATLAB.
+* **Intern @ India Space Academy** – worked with cosmological data to estimate the Hubble parameter using Python.
+* **Member @ IEEE Photonics Society** – contributed to optical communication outreach and design.
 
----
-
-### 🌱 Beyond Circuits and Code
-
-Not everything in my life runs on voltage and logic gates.  
-When I’m not experimenting with microcontrollers or debugging MATLAB scripts, I enjoy:
-
-- Exploring **minimalist design** and visual aesthetics.  
-- Learning **new tools and technologies** just for the joy of discovery.  
-- Contributing to **student tech communities** and sharing knowledge.  
-- Spending quiet evenings sketching out ideas for my next project (or redesigning my portfolio).
+These roles helped me connect theory with real-world systems — from **RF simulations** to **IoT prototypes**.
 
 ---
 
-### ✨ Looking Ahead
+### 🌱 Outside the Lab
 
-Right now, I’m working on strengthening my skills in **IoT systems**, **embedded AI**, and **wireless communication** — aiming to create devices that are both **smart and sustainable**.  
+When I’m not soldering circuits or debugging code, you’ll probably find me:
 
-I believe the future belongs to those who can make machines *sense, think, and communicate* — and I want to be part of building that future.
+* Exploring **minimalist design** and tech aesthetics.
+* Learning new tools and building side projects for fun.
+* Contributing to student tech communities.
+* Sketching out ideas for my next prototype or portfolio update.
 
 ---
 
-> *“Bridging embedded systems with intelligent technology — one project at a time.”*
+### ✨ What’s Next
+
+I’m currently diving deeper into **IoT systems**, **embedded AI**, and **wireless communication**, with the goal of building devices that are **smart, connected, and sustainable**.
+
+> *Bridging embedded systems with intelligent technology — one project at a time.*
+
+
